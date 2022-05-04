@@ -67,7 +67,7 @@ open class SubviewTextAttachment: NSTextAttachment {
 
 // MARK: - Internal view provider
 
-final internal class DirectTextAttachedViewProvider: TextAttachedViewProvider {
+open final class DirectTextAttachedViewProvider: TextAttachedViewProvider {
 
     let view: UIView
 
